@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="7Siri Mobile Automation">
+	<test thread-count="5" name="Functional Test Automation">
+		<parameter name="platformName" value="ANDROID"></parameter>
+		<parameter name="platformVersion" value="11"></parameter>
+		<parameter name="deviceName" value="sdk_gphone_x86"></parameter>
+		<parameter name="udid" value="emulator-5554"></parameter>
+		<classes>
+			<class name="com.qa.tests.UserLogin"></class>
+
+		</classes>
+	</test> <!-- Functional Test Automation -->
+</suite> <!-- 7Siri Mobile Automation -->

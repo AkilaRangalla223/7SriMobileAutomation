@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [7Siri Mobile Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Test Automation(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="platformName" value="ANDROID"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="sdk_gphone_x86"/>
+    <classes>
+      <class name="com.qa.tests.UserLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="verify_logging_in_with_invalid_email_and_valid_password"/>
+          <include name="verify_logging_in_without_providing_credentials"/>
+          <include name="setup"/>
+          <include name="verify_logging_in_with_valid_email_and_invalid_password"/>
+          <include name="verify_logging_in_with_invalid_email_and_invalid_password"/>
+          <include name="log"/>
+          <include name="verify_logging_in_with_valid_email_and_valid_password"/>
+        </methods>
+      </class> <!-- com.qa.tests.UserLogin -->
+    </classes>
+  </test> <!-- Functional Test Automation(failed) -->
+</suite> <!-- Failed suite [7Siri Mobile Automation] -->

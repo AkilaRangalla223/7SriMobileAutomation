@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-07T11:14:07Z" name="7Siri Mobile Automation" finished-at="2022-01-07T11:18:39Z" duration-ms="272199">
+    <groups>
+    </groups>
+    <test started-at="2022-01-07T11:14:07Z" name="Functional Test Automation" finished-at="2022-01-07T11:18:39Z" duration-ms="272199">
+      <class name="tests.UserLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:07Z" name="setup" finished-at="2022-01-07T11:14:13Z" duration-ms="6020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logging_in_without_providing_credentials()[pri:1, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:13Z" name="verify_logging_in_without_providing_credentials" finished-at="2022-01-07T11:14:22Z" duration-ms="9444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logging_in_without_providing_credentials -->
+        <test-method signature="verify_logging_in_with_invalid_email_and_invalid_password()[pri:2, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:22Z" name="verify_logging_in_with_invalid_email_and_invalid_password" finished-at="2022-01-07T11:14:30Z" duration-ms="7449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logging_in_with_invalid_email_and_invalid_password -->
+        <test-method signature="verify_logging_in_with_invalid_email_and_valid_password()[pri:3, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:30Z" name="verify_logging_in_with_invalid_email_and_valid_password" finished-at="2022-01-07T11:14:37Z" duration-ms="7382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logging_in_with_invalid_email_and_valid_password -->
+        <test-method signature="verify_logging_in_with_valid_email_and_invalid_password()[pri:4, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:37Z" name="verify_logging_in_with_valid_email_and_invalid_password" finished-at="2022-01-07T11:14:44Z" duration-ms="7382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logging_in_with_valid_email_and_invalid_password -->
+        <test-method signature="verify_logging_in_with_valid_email_and_valid_password()[pri:5, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:44Z" name="verify_logging_in_with_valid_email_and_valid_password" finished-at="2022-01-07T11:14:52Z" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logging_in_with_valid_email_and_valid_password -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.UserLogin@3b0fe47a]" started-at="2022-01-07T11:14:52Z" name="teardown" finished-at="2022-01-07T11:14:57Z" duration-ms="5448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.UserLogin -->
+      <class name="tests.OrderItem">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:06Z" name="setup" finished-at="2022-01-07T11:18:11Z" duration-ms="5547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selecting_the_first_item_from_the_menu()[pri:22, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:11Z" name="selecting_the_first_item_from_the_menu" finished-at="2022-01-07T11:18:19Z" duration-ms="7892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecting_the_first_item_from_the_menu -->
+        <test-method signature="increase_the_quantity_of_the_item_selected()[pri:23, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:19Z" name="increase_the_quantity_of_the_item_selected" finished-at="2022-01-07T11:18:24Z" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increase_the_quantity_of_the_item_selected -->
+        <test-method signature="decreased_the_quantity_of_the_item_selected()[pri:24, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:24Z" name="decreased_the_quantity_of_the_item_selected" finished-at="2022-01-07T11:18:26Z" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decreased_the_quantity_of_the_item_selected -->
+        <test-method signature="add_the_selected_item_to_the_cart()[pri:25, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:26Z" name="add_the_selected_item_to_the_cart" finished-at="2022-01-07T11:18:31Z" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_the_selected_item_to_the_cart -->
+        <test-method signature="remove_the_selected_item_from_the_cart()[pri:26, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:31Z" name="remove_the_selected_item_from_the_cart" finished-at="2022-01-07T11:18:33Z" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_the_selected_item_from_the_cart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.OrderItem@58cbafc2]" started-at="2022-01-07T11:18:33Z" name="teardown" finished-at="2022-01-07T11:18:39Z" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.OrderItem -->
+      <class name="tests.Logout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Logout@202b0582]" started-at="2022-01-07T11:14:57Z" name="setup" finished-at="2022-01-07T11:15:03Z" duration-ms="5703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logging_out_by_logout_option_in_side_menu()[pri:6, instance:tests.Logout@202b0582]" started-at="2022-01-07T11:15:03Z" name="verify_logging_out_by_logout_option_in_side_menu" finished-at="2022-01-07T11:15:21Z" duration-ms="18706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logging_out_by_logout_option_in_side_menu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Logout@202b0582]" started-at="2022-01-07T11:15:21Z" name="teardown" finished-at="2022-01-07T11:15:27Z" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Logout -->
+      <class name="tests.UserRegistration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:15:59Z" name="setup" finished-at="2022-01-07T11:16:04Z" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_error_when_providing_null_values_for_all_fields()[pri:11, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:16:04Z" name="verify_error_when_providing_null_values_for_all_fields" finished-at="2022-01-07T11:16:16Z" duration-ms="11674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_null_values_for_all_fields -->
+        <test-method signature="verify_error_when_providing_a_null_value_for_name()[pri:12, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:16:16Z" name="verify_error_when_providing_a_null_value_for_name" finished-at="2022-01-07T11:16:28Z" duration-ms="11998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_a_null_value_for_name -->
+        <test-method signature="verify_error_when_providing_a_null_value_for_email()[pri:13, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:16:28Z" name="verify_error_when_providing_a_null_value_for_email" finished-at="2022-01-07T11:16:38Z" duration-ms="10002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_a_null_value_for_email -->
+        <test-method signature="verify_error_when_providing_an_invalid__email()[pri:14, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:16:38Z" name="verify_error_when_providing_an_invalid__email" finished-at="2022-01-07T11:16:49Z" duration-ms="10649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_an_invalid__email -->
+        <test-method signature="verify_error_when_providing_an_email_that_is_already_in_use()[pri:15, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:16:49Z" name="verify_error_when_providing_an_email_that_is_already_in_use" finished-at="2022-01-07T11:17:00Z" duration-ms="11628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_an_email_that_is_already_in_use -->
+        <test-method signature="verify_error_when_providing_a_null_value_for_mobile_number()[pri:16, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:17:00Z" name="verify_error_when_providing_a_null_value_for_mobile_number" finished-at="2022-01-07T11:17:10Z" duration-ms="10282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_a_null_value_for_mobile_number -->
+        <test-method signature="verify_error_when_providing_an_invalid_mobile_number()[pri:17, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:17:10Z" name="verify_error_when_providing_an_invalid_mobile_number" finished-at="2022-01-07T11:17:22Z" duration-ms="11119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_an_invalid_mobile_number -->
+        <test-method signature="verify_error_when_providing_a_null_value_for_password()[pri:18, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:17:22Z" name="verify_error_when_providing_a_null_value_for_password" finished-at="2022-01-07T11:17:29Z" duration-ms="7933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_a_null_value_for_password -->
+        <test-method signature="verify_error_when_providing_a_password_less_than_6_characters()[pri:19, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:17:29Z" name="verify_error_when_providing_a_password_less_than_6_characters" finished-at="2022-01-07T11:17:41Z" duration-ms="11729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_a_password_less_than_6_characters -->
+        <test-method signature="verify_error_when_password_and_confirm_password_doesnt_match()[pri:20, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:17:41Z" name="verify_error_when_password_and_confirm_password_doesnt_match" finished-at="2022-01-07T11:17:52Z" duration-ms="10653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_password_and_confirm_password_doesnt_match -->
+        <test-method signature="verify_successful_register_by_providing_all_valid_values(java.lang.String)[pri:21, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:17:52Z" name="verify_successful_register_by_providing_all_valid_values" finished-at="2022-01-07T11:18:00Z" duration-ms="8286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akilatest11@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_successful_register_by_providing_all_valid_values -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.UserRegistration@1ca3b418]" started-at="2022-01-07T11:18:00Z" name="teardown" finished-at="2022-01-07T11:18:06Z" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.UserRegistration -->
+      <class name="tests.ForgotPassword">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ForgotPassword@235ecd9f]" started-at="2022-01-07T11:15:27Z" name="setup" finished-at="2022-01-07T11:15:32Z" duration-ms="5611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_error_when_providing_a_null_value_for_email()[pri:7, instance:tests.ForgotPassword@235ecd9f]" started-at="2022-01-07T11:15:32Z" name="verify_error_when_providing_a_null_value_for_email" finished-at="2022-01-07T11:15:43Z" duration-ms="10674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_a_null_value_for_email -->
+        <test-method signature="verify_error_when_providing_an_invalid_email()[pri:8, instance:tests.ForgotPassword@235ecd9f]" started-at="2022-01-07T11:15:43Z" name="verify_error_when_providing_an_invalid_email" finished-at="2022-01-07T11:15:46Z" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_an_invalid_email -->
+        <test-method signature="verify_error_when_providing_an_unregistered_email()[pri:9, instance:tests.ForgotPassword@235ecd9f]" started-at="2022-01-07T11:15:46Z" name="verify_error_when_providing_an_unregistered_email" finished-at="2022-01-07T11:15:49Z" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_error_when_providing_an_unregistered_email -->
+        <test-method signature="verify_email_is_sent_when_providing_a_valid_email_address()[pri:10, instance:tests.ForgotPassword@235ecd9f]" started-at="2022-01-07T11:15:49Z" name="verify_email_is_sent_when_providing_a_valid_email_address" finished-at="2022-01-07T11:15:53Z" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_email_is_sent_when_providing_a_valid_email_address -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ForgotPassword@235ecd9f]" started-at="2022-01-07T11:15:53Z" name="teardown" finished-at="2022-01-07T11:15:59Z" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ForgotPassword -->
+    </test> <!-- Functional Test Automation -->
+  </suite> <!-- 7Siri Mobile Automation -->
+</testng-results>

@@ -1,0 +1,6 @@
+tests\UserRegistration.class
+tests\ForgotPassword.class
+tests\OrderItem.class
+tests\Logout.class
+tests\UserLogin.class
+tests\BaseClass.class

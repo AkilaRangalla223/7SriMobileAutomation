@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="273.284" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\akila\eclipse-workspace\7SriMobileAutomation\target\test-classes;C:\Users\akila\eclipse-workspace\7SriMobileAutomation\target\classes;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\akila\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\akila\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\akila\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\akila\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\akila\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\akila\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\akila\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\akila\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\akila\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\akila\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\akila\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\akila\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\akila\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\akila\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\akila\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\akila\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akila\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akila\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akila\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akila\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\akila\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\akila\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\akila\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\akila\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\akila\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\akila\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\akila\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\akila\.m2\repository\org\springframework\spring-context\5.3.4\spring-context-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-aop\5.3.4\spring-aop-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-beans\5.3.4\spring-beans-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-core\5.3.4\spring-core-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-jcl\5.3.4\spring-jcl-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-expression\5.3.4\spring-expression-5.3.4.jar;C:\Users\akila\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\akila\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\akila\AppData\Local\Temp\surefire10967323274761872350\surefirebooter17734572503551236992.jar C:\Users\akila\AppData\Local\Temp\surefire10967323274761872350 2022-01-07T16-44-05_511-jvmRun1 surefire9419121282341224891tmp surefire_02549817384482345294tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\akila\eclipse-workspace\7SriMobileAutomation\target\test-classes;C:\Users\akila\eclipse-workspace\7SriMobileAutomation\target\classes;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\akila\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\akila\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\akila\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\akila\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\akila\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\akila\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\akila\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\akila\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\akila\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\akila\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\akila\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\akila\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\akila\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\akila\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\akila\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\akila\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\akila\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akila\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akila\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akila\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akila\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\akila\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\akila\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\akila\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\akila\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\akila\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\akila\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\akila\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\akila\.m2\repository\org\springframework\spring-context\5.3.4\spring-context-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-aop\5.3.4\spring-aop-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-beans\5.3.4\spring-beans-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-core\5.3.4\spring-core-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-jcl\5.3.4\spring-jcl-5.3.4.jar;C:\Users\akila\.m2\repository\org\springframework\spring-expression\5.3.4\spring-expression-5.3.4.jar;C:\Users\akila\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\akila\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akila"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\akila\eclipse-workspace\7SriMobileAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\akila\AppData\Local\Temp\surefire10967323274761872350\surefirebooter17734572503551236992.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="akila"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\akila\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\akila\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\akila\eclipse-workspace\7SriMobileAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jre1.8.0_231\bin;C:\Program Files\apache-maven-3.8.3\bin;C:\Program Files\Java\jdk-17.0.1;C:\Users\akila\AppData\Local\Android\Sdk\platform-tools;C:\Users\akila\AppData\Local\Android\Sdk\tools;C:\Users\akila\AppData\Local\Android\Sdk\bundle-tool;C:\gstreamer\1.0\msvc_x86_64\bin;C:\Users\akila\AppData\Local\Microsoft\WindowsApps;C:\Users\akila\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akila\AppData\Roaming\npm;C:\Users\akila\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Program Files\CMake\bin;C:\Users\akila\node_modules\@ffmpeg-installer\win32-x64;C:\Program Files\android-sdk\bundle-tools;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verify_logging_in_without_providing_credentials" classname="tests.UserLogin" time="9.442">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+User can't log into the application without providing any credentials
+]]></system-out>
+    <system-err><![CDATA[Jan 07, 2022 4:44:13 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_logging_in_with_invalid_email_and_invalid_password" classname="tests.UserLogin" time="7.449">
+    <system-out><![CDATA[User can't log into the application by providing invalid credentials
+]]></system-out>
+  </testcase>
+  <testcase name="verify_logging_in_with_invalid_email_and_valid_password" classname="tests.UserLogin" time="7.381">
+    <system-out><![CDATA[User can't log into the application using invalid email address and valid Password
+]]></system-out>
+  </testcase>
+  <testcase name="verify_logging_in_with_valid_email_and_invalid_password" classname="tests.UserLogin" time="7.383">
+    <system-out><![CDATA[User can't log into the application using valid email address and invalid Password
+]]></system-out>
+  </testcase>
+  <testcase name="verify_logging_in_with_valid_email_and_valid_password" classname="tests.UserLogin" time="7.154">
+    <system-out><![CDATA[User can log into the application using valid email address and valid Password
+]]></system-out>
+  </testcase>
+  <testcase name="verify_logging_out_by_logout_option_in_side_menu" classname="tests.Logout" time="18.705">
+    <system-out><![CDATA[User can logout from the application by using side menu 'Logout' option
+]]></system-out>
+    <system-err><![CDATA[Jan 07, 2022 4:45:03 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_error_when_providing_a_null_value_for_email" classname="tests.ForgotPassword" time="10.675">
+    <system-out><![CDATA[User can't leave 'email' empty when resetting password
+]]></system-out>
+    <system-err><![CDATA[Jan 07, 2022 4:45:32 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_error_when_providing_an_invalid_email" classname="tests.ForgotPassword" time="3.253">
+    <system-out><![CDATA[User can't providing an invalid email when resetting password
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_an_unregistered_email" classname="tests.ForgotPassword" time="3.263">
+    <system-out><![CDATA[User can't providing an unregistered email when resetting password
+]]></system-out>
+  </testcase>
+  <testcase name="verify_email_is_sent_when_providing_a_valid_email_address" classname="tests.ForgotPassword" time="3.787">
+    <system-out><![CDATA[User can reset the password by providing a valid email address
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_null_values_for_all_fields" classname="tests.UserRegistration" time="11.673">
+    <system-out><![CDATA[User can't leave all required fields empty when registering
+]]></system-out>
+    <system-err><![CDATA[Jan 07, 2022 4:46:04 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_error_when_providing_a_null_value_for_name" classname="tests.UserRegistration" time="11.997">
+    <system-out><![CDATA[User can't provide a null value for 'name' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_a_null_value_for_email" classname="tests.UserRegistration" time="10.003">
+    <system-out><![CDATA[User can't provide a null value for 'email' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_an_invalid__email" classname="tests.UserRegistration" time="10.65">
+    <system-out><![CDATA[User can't provide an invalid 'email' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_an_email_that_is_already_in_use" classname="tests.UserRegistration" time="11.628">
+    <system-out><![CDATA[User can't provide an  'email' that is already in use to register
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_a_null_value_for_mobile_number" classname="tests.UserRegistration" time="10.283">
+    <system-out><![CDATA[User can't provide a null value for 'mobile number' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_an_invalid_mobile_number" classname="tests.UserRegistration" time="11.12">
+    <system-out><![CDATA[User can't provide an invalid 'mobile number' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_a_null_value_for_password" classname="tests.UserRegistration" time="7.933">
+    <system-out><![CDATA[User can't provide a null value for 'password' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_providing_a_password_less_than_6_characters" classname="tests.UserRegistration" time="11.729">
+    <system-out><![CDATA[User can't provide a 'password' less than 6 characters when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_error_when_password_and_confirm_password_doesnt_match" classname="tests.UserRegistration" time="10.653">
+    <system-out><![CDATA[User can't provide unmatching values for 'password' and 'confirm password' when registering
+]]></system-out>
+  </testcase>
+  <testcase name="verify_successful_register_by_providing_all_valid_values[akilatest11@yahoo.com](1)" classname="tests.UserRegistration" time="8.286">
+    <system-out><![CDATA[User successfully registered to the system
+]]></system-out>
+  </testcase>
+  <testcase name="selecting_the_first_item_from_the_menu" classname="tests.OrderItem" time="7.892">
+    <system-out><![CDATA[First item of the menu is selected
+]]></system-out>
+    <system-err><![CDATA[Jan 07, 2022 4:48:11 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="increase_the_quantity_of_the_item_selected" classname="tests.OrderItem" time="5.166">
+    <system-out><![CDATA[Quantity of the food item is increased by two
+]]></system-out>
+  </testcase>
+  <testcase name="decreased_the_quantity_of_the_item_selected" classname="tests.OrderItem" time="2.069">
+    <system-out><![CDATA[Quantity of the food item is decreased by one
+]]></system-out>
+  </testcase>
+  <testcase name="add_the_selected_item_to_the_cart" classname="tests.OrderItem" time="5.14">
+    <system-out><![CDATA[Selected item is added to the cart
+]]></system-out>
+  </testcase>
+  <testcase name="remove_the_selected_item_from_the_cart" classname="tests.OrderItem" time="2.118">
+    <system-out><![CDATA[Added item is removed to the cart
+]]></system-out>
+  </testcase>
+</testsuite>
